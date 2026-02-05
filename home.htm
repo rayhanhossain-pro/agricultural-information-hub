@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agricultural Information Hub</title>
+    <link
+      rel="shortcut icon"
+      href="assest/images/logo/pngtree-agricultural-logo-png-image_6514915-removebg-preview_Nero_AI_Image_Upscaler_Standard.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quintessential&family=Share+Tech+Mono&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assest/style.css" />
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.htm"
+          ><img
+            src="assest/images/logo/pngtree-agricultural-logo-png-image_6514915-removebg-preview_Nero_AI_Image_Upscaler_Standard.png"
+            alt=""
+            width="50px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5 text-light"
+                aria-current="page"
+                href="home.htm"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5 text-light"
+                aria-current="page"
+                href="farminguides.htm"
+                target="_blank"
+                >Farming Guides</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5 text-light"
+                aria-current="page"
+                href="cropdetails.htm"
+                target="_blank"
+                >Crop Details</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5 text-light"
+                aria-current="page"
+                href="pestcontrolstrategies.htm"
+                target="_blank"
+                >Pest Control</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5 text-light"
+                aria-current="page"
+                href="contact.htm"
+                target="_blank"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="assest/images/banner/banner-1.jpeg"
+            class="d-block w-100"
+            alt="Agricultural image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assest/images/banner/banner-2.jpeg"
+            class="d-block w-100"
+            alt="Agricultural image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assest/images/banner/banner-3.jpeg"
+            class="d-block w-100"
+            alt="Agricultural image"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br />
+    <section class="home_page">
+      <div class="container" style="border: 2px solid red">
+        <!-- Introduction -->
+        <div class="row">
+          <div class="col-6">
+            <div class="card" style="width: 100%">
+              <img
+                src="https://i.pinimg.com/1200x/55/d8/aa/55d8aa645be8010850dd957115340d20.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card">
+              <h5 class="card-header">Introduction</h5>
+              <div class="card-body">
+                <h5 class="card-title">Agricultural Information Hub</h5>
+                <p class="card-text">
+                  Agriculture is the practice of cultivating the soil, planting,
+                  raising, and harvesting both food and non-food crops, as well
+                  as livestock production. Broader definitions also include
+                  forestry and aquaculture. Agriculture was a key factor in the
+                  rise of sedentary human civilization, whereby farming of
+                  domesticated plants and animals created food surpluses that
+                  enabled people to live in the cities. While humans started
+                  gathering grains at least 105,000 years ago, nascent farmers
+                  only began planting them around 11,500 years ago. Sheep,
+                  goats, pigs, and cattle were domesticated around 10,000 years
+                  ago. Plants were independently cultivated in at least 11
+                  regions of the world. In the 20th century, industrial
+                  agriculture based on large-scale monocultures came to dominate
+                  agricultural output.
+                </p>
+                <div class="abc">
+                  <a
+                    href="https://en.wikipedia.org/wiki/Agriculture"
+                    class="btn btn-primary"
+                    >More Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Featured -->
+        <h1 class="Featured_heading">Featured sections</h1>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="assest/images/card image/1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">farming guides</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Eos nobis, facere et ea esse
+                  error temporibus doloremque consequatur ad quas!
+                </p>
+                <div class="abc">
+                  <a href="#" class="btn btn-primary">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="assest/images/card image/2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">crop details</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Lorem ipsum dolor sit amet
+                  consectetur, adipisicing elit. Optio tempora quibusdam eveniet
+                  nemo maiores, error iste incidunt hic quasi officiis
+                  necessitatibus?
+                </p>
+                <div class="abc">
+                  <a href="#" class="btn btn-primary">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 100%">
+              <img
+                src="assest/images/card image/3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">pest control</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Minima odit dolor recusandae
+                  consequuntur nam doloremque totam velit unde libero ratione!
+                </p>
+                <div class="abc">
+                  <a href="#" class="btn btn-primary">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br />
+      </div>
+    </section>
+    <br />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+.navbar-brand img{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+/* .nav-item:hover{
+    background-color: #faf3e0;
+    border: 2px solid #f9a825;
+    border-radius: 20px;
+} */
+.nav-link:hover{
+    color: green !important;
+}
+.abc{
+    text-align: center;
+}
+.home_page .container {
+    background-color: #faf3e0;
+    border-radius: 50px 0px 50px 0px;
+    padding: 20px;
+}
+
+.container .col-6 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.col-6 .card {
+    height: 418px;
+}
+
+.container .col-4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #6d4c41;
+}
+.card:hover{
+    border: 2px solid #2e7d32;
+}
+
+.Featured_heading {
+    text-decoration: underline #6d4c41;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* ------------------------------------------------ Farming Guides -------------------------------------- */
+.breadcrumb{
+    background-color: #090e20;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 650px;
+}
+
+
+  /* ---------------------------------- Pest Control ---------------------------------- */
+    /* Hero Section */
+        .hero_div {
+    position: relative; /* এটি মেইন কন্টেইনারকে রেফারেন্স হিসেবে কাজ করাবে */
+    width: 100%;
+    height: 400px; /* একটি নির্দিষ্ট হাইট দিন */
+    overflow: hidden;
+}
+
+.hero_div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ইমেজকে সুন্দরভাবে ফিট করার জন্য */
+    opacity: 0.5; /* আপনি বলেছিলেন ইমেজ অপাসিটি কমাতে */
+}
+
+.hero_heading, .hero_paragraph {
+    position: absolute; /* ইমেজ বা কন্টেইনারের ওপর ভাসিয়ে রাখার জন্য */
+    left: 50px; /* আপনার রিকোয়ারমেন্ট অনুযায়ী বাম পাশে রাখার জন্য */
+    color: white; /* টেক্সট কালার সাদা হলে ভালো দেখাবে */
+    z-index: 10; /* যাতে টেক্সট ইমেজের ওপরে থাকে */
+}
+
+/* .hero_heading {
+    top: 35%; /* ওপর থেকে পজিশন সেট করার জন্য */
+}
+
+.hero_paragraph {
+    top: 50%; /* হেডিং এর নিচে রাখার জন্য */
+} */
+
+/*---------------------------------------------- Contact -------------------------------------------- */
+/* #faf3e0 */
+/* .Contact_page_container{
+    border: 2px solid blue;
+} */
+/* section{
+    background-color: #fffdf8;
+} */
+
+.contact_icons_row{
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.contact_icons{
+    text-align: center;
+    margin-right: 100px;
+    /* border: 2px solid green; */
+    padding: 30px;
+}
+
+.col-6_form{
+    box-shadow: 1px 1px 5px #dccec9;
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+    background-color: #fffffd;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.col-6_form:hover{
+    border: 1px solid green;
+    box-shadow: 1px 1px 10px #6d4c41;
+}
+
+
+.contact_form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    /* border: 2px solid red; */
+    width: 94%;
+}
+
+
+.map{
+    box-shadow: 1px 1px 5px #dccec9;
+    border-radius: 10px;
+    width: 100%;
+    height: 569px;
+    align-items: center;
+    background-color: #fffffd;
+    /* padding-left: 90px; */
+}
+.map:hover{
+    border: 1px solid green;
+    box-shadow: 1px 1px 10px #6d4c41;
+}
+
+
+.map_iframe{
+    border-radius: 10px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 520px;
+    /* border: 2px solid red; */
+    width: 94%;
+}
+
+
+/* --------------------------------- Contact Info icon Cards -----------------------------------  */
+        :root {
+            --primary-green: #2e7d32;
+            --bg-cream: #faf3e0;
+        }
+
+        body { background-color: #fcfaf5; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+        .contact-info-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+        }
+        .contact-info-card:hover {
+            transform: translateY(-5px);
+            border-bottom: 4px solid var(--primary-green);
+        }
+        .contact-info-card i {
+            font-size: 2rem;
+            color: var(--primary-green);
+            margin-bottom: 15px;
+        }
+
